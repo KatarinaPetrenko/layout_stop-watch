@@ -27,8 +27,8 @@
   left: 190px;
   top: 100px;
   transform-origin: bottom;
-  -webkit-animation: moving-hand 10s linear infinite;
-          animation: moving-hand 10s linear infinite; }
+  -webkit-animation: moving-hand 3600s linear infinite;
+          animation: moving-hand 3600s linear infinite; }
 
 .minute-hand {
   margin: 0 5px;
@@ -40,8 +40,8 @@
   left: 190px;
   top: 20px;
   transform-origin: bottom;
-  -webkit-animation: moving-hand 5s linear infinite;
-          animation: moving-hand 5s linear infinite; }
+  -webkit-animation: moving-hand 60s linear infinite;
+          animation: moving-hand 60s linear infinite; }
 
 @-webkit-keyframes moving-hand {
   from {
