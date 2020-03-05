@@ -18,6 +18,7 @@
     z-index: 1; }
 
 .hour-hand {
+  margin: 0 5px;
   width: 10px;
   height: 100px;
   background-color: palevioletred;
@@ -25,11 +26,12 @@
   position: absolute;
   left: 190px;
   top: 100px;
-  transform-origin: bottom right;
-  -webkit-animation: moving-hand 3600s linear;
-          animation: moving-hand 3600s linear; }
+  transform-origin: bottom;
+  -webkit-animation: moving-hand 10s linear infinite;
+          animation: moving-hand 10s linear infinite; }
 
 .minute-hand {
+  margin: 0 5px;
   width: 10px;
   height: 180px;
   background-color: steelblue;
@@ -37,9 +39,9 @@
   position: absolute;
   left: 190px;
   top: 20px;
-  transform-origin: bottom right;
-  -webkit-animation: moving-hand 60s linear;
-          animation: moving-hand 60s linear; }
+  transform-origin: bottom;
+  -webkit-animation: moving-hand 5s linear infinite;
+          animation: moving-hand 5s linear infinite; }
 
 @-webkit-keyframes moving-hand {
   from {
